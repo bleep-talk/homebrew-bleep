@@ -1,8 +1,8 @@
 # Generated from a checksum-pinned archive. Publication is a separate step.
 class Bleep < Formula
   desc "Connect agents to people on Bleep"
-  homepage "https://github.com/MauScheff/bleep-releases"
-  url 'https://github.com/MauScheff/bleep-releases/releases/download/v0.1.0-r2/bleep-0.1.0-macos-arm64-r2.tar.gz'
+  homepage "https://github.com/bleep-talk/bleep-releases"
+  url 'https://github.com/bleep-talk/bleep-releases/releases/download/v0.1.0-r2/bleep-0.1.0-macos-arm64-r2.tar.gz'
   sha256 "a764a21c4b5d266d83f4b706bdd07f76970446d3eca249381eca30460799b1d0"
   version "0.1.0"
   revision 2
