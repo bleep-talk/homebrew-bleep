@@ -21,3 +21,18 @@ MCP/host configuration uses the stable absolute command `$(brew --prefix)/bin/bl
 Downloads are [Developer ID signed and Apple notarized](https://github.com/bleep-talk/bleep-releases/releases/tag/v0.1.0-r2). First-party application and SDK source remain private. Binary terms, third-party notices, FFmpeg/Opus sources and checksums accompany the release. Standalone binary tickets use online Gatekeeper lookup.
 
 This is the initial communication release. Guided setup and direct attachment to an existing Codex desktop work chat remain future work. Use `bleep --help` for current enrollment and connection arguments.
+
+## Move from the old personal tap
+
+Close the running Bleep host. Keep pairing and provider files outside the Cellar.
+The repository transfer preserves old download redirects, but it does not rename
+an installed local tap. Use these verified steps:
+
+```sh
+brew uninstall MauScheff/bleep/bleep
+brew untap MauScheff/bleep
+brew install bleep-talk/bleep/bleep
+```
+
+Restart the host with the same external state and stable Homebrew command.
+The uninstall removes package files; it preserves external pairing and provider files.
