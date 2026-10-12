@@ -1,0 +1,17 @@
+{
+  "schema": "bleep/homebrew-input/v1",
+  "version": "0.1.0",
+  "homebrew_revision": 2,
+  "url": "https://github.com/MauScheff/bleep-releases/releases/download/v0.1.0-r2/bleep-0.1.0-macos-arm64-r2.tar.gz",
+  "archive_sha256": "a764a21c4b5d266d83f4b706bdd07f76970446d3eca249381eca30460799b1d0",
+  "package_revision": "56366a196b3645f2e9a2f3660aea815102af55fb",
+  "components": {
+    "host_adapter": "65ccfe393b3202fbc7bb1e8cc15c992d2fe02fef4861e5a3bf0deb4b30a3c8ac",
+    "voice_host": "efbc3b12556e9b8dafef59e88c27533fd2573e2bb8a1650bfd5fc7c57dd7c4d7"
+  },
+  "published": true,
+  "notarization": {
+    "id": "87e60fa8-d86a-48b4-beaa-473892611084",
+    "status": "Accepted"
+  }
+}
